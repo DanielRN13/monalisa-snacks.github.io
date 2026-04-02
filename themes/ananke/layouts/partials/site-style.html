@@ -1,0 +1,15 @@
+{{- /* 1. Cargamos los estilos base del tema Ananke (Importante para que no se vea como esqueleto) */ -}}
+{{ $style := resources.Get "ananke/css/main.min.css" }}
+{{ if $style }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
+
+{{- /* 2. Cargamos TUS estilos personalizados de assets/css/ */ -}}
+{{ $customStyles := slice "css/layout.css" "css/menu.css" "css/components.css" "css/pages.css" }}
+
+{{ range $customStyles }}
+    {{ with resources.Get . }}
+        {{ $min := . | resources.Minify }}
+        <link rel="stylesheet" href="{{ $min.RelPermalink }}">
+    {{ end }}
+{{ end }}
