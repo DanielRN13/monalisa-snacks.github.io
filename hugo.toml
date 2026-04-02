@@ -1,22 +1,24 @@
-# baseURL DEBE ser solo el texto, sin corchetes ni paréntesis
+# baseURL SIN corchetes ni paréntesis, solo la URL
 baseURL = "https://danielrn13.github.io/monalisa-snacks.github.io/"
 languageCode = "es-mx"
 title = "Monalisa Crepes & Burgers"
 theme = "ananke"
 
-# Forzamos rutas absolutas para evitar confusiones en subcarpetas
-canonifyURLs = true
-relativeURLs = false
+# CONFIGURACIÓN DE ORO PARA SUB-CARPETAS (Garantiza que el CSS cargue)
+canonifyURLs = false
+relativeURLs = true
 
 [params]
   author = "Mona"
   description = "Las mejores crepas y hamburguesas artesanales."
-  # Ruta absoluta con el nombre del repositorio
-  featured_image = "/monalisa-snacks.github.io/images/banner-principal.jpg"
+  # Ruta SIN barra inicial para que relativeURLs la encuentre
+  featured_image = "images/banner-principal.jpg"
+  # Nombre exacto de tu archivo CSS en static/css/
+  custom_css = ["css/layout.css"]
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-# ELIMINAMOS COMPLETAMENTE LA SECCIÓN [[menu.main]] PARA QUITAR LA PALABRA "INICIO"
+# NO AGREGAR [[menu.main]] PARA QUE NO APAREZCA LA PALABRA "INICIO"
