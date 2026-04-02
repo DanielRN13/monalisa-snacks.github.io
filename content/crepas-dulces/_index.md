@@ -1,11 +1,11 @@
 ---
 title: "Crepas Dulces"
 description: "Nuestra masa artesanal combinada con los mejores ingredientes dulces."
-featured_image: "/images/banner-d.jpg"
+featured_image: "images/banner-d.jpg"
 ---
 
 <a href="/" class="boton-home-mona">
-  <img src="/images/logo-mini.png" alt="Home">
+  <img src="images/logo-mini.png" alt="Home">
 </a>
 
 {{< contenedor >}}

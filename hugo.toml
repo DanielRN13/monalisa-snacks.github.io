@@ -1,8 +1,11 @@
-# URL de producción en GitHub Pages
 baseURL = "https://danielrn13.github.io/monalisa-snacks.github.io/"
 languageCode = "es-mx"
 title = "Monalisa Crepes & Burgers"
 theme = "ananke"
+
+# Muy importante: esto ayuda a Hugo a manejar las rutas relativas
+canonifyURLs = true
+relativeURLs = true
 
 [params]
   author = "Mona"

@@ -1,11 +1,11 @@
 ---
 title: "Nuestras Hamburguesas"
 description: "Sabor parrillero artesanal con carne 100% de res."
-featured_image: "/images/banner-h.jpg"
+featured_image: "images/banner-h.jpg"
 ---
 
 <a href="/" class="boton-home-mona">
-  <img src="/images/logo-mini.png" alt="Home">
+  <img src="images/logo-mini.png" alt="Home">
 </a>
 
 {{< contenedor >}}

@@ -1,11 +1,11 @@
 ---
 title: "Nuestros Videos"
 description: "Mira lo que hacemos en mi emprendimiento"
-featured_image: "/images/banner-v.jpg"
+featured_image: "images/banner-v.jpg"
 ---
 
 <a href="/" class="boton-home-mona">
-  <img src="/images/logo-mini.png" alt="Home">
+  <img src="images/logo-mini.png" alt="Home">
 </a>
 
 {{< contenedor >}}
