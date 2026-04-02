@@ -1,0 +1,18 @@
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Parisienne&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/layout.css">
+</head>
+
+<body class="bg-near-white">
+    {{ partial "site-header.html" . }}
+    
+    <main role="main">
+      {{ block "main" . }}{{ end }} </main>
+
+    {{ partial "site-footer.html" . }}
+</body>

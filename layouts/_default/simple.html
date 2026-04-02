@@ -1,0 +1,19 @@
+{{ define "main" }}
+<style>
+  body { background: #f4f1ea !important; font-family: 'Montserrat', sans-serif; }
+  .menu-clean-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+</style>
+
+<div class="menu-clean-container">
+    <h1 style="font-family: 'Parisienne', cursive; font-size: 3rem; color: #e44d26;">Mona</h1>
+    {{ .Content }}
+</div>
+{{ end }}
