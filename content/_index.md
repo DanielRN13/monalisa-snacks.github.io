@@ -1,7 +1,7 @@
 ---
 title: "Monalisa Crepes & Snacks"
 description: "Las mejores crepas dulces y hamburguesas artesanales de la zona."
-featured_image: "images/banner-principal.jpg"
+featured_image: "/monalisa-snacks.github.io/images/banner-principal.jpg"
 ---
 
 <a href="/" class="boton-home-mona">

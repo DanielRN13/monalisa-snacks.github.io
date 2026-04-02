@@ -1,7 +1,7 @@
 ---
 title: "Nuestras Hamburguesas"
 description: "Sabor parrillero artesanal con carne 100% de res."
-featured_image: "images/banner-h.jpg"
+featured_image: "/monalisa-snacks.github.io/images/banner-h.jpg"
 ---
 
 <a href="/" class="boton-home-mona">

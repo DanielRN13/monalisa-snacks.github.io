@@ -1,7 +1,7 @@
 ---
 title: "Crepas Saladas"
 description: "Una comida completa en una crepa deliciosa."
-featured_image: "images/banner-s.jpg"
+featured_image: "/monalisa-snacks.github.io/images/banner-s.jpg"
 ---
 
 <a href="/" class="boton-home-mona">

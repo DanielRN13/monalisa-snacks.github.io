@@ -1,7 +1,7 @@
 ---
 title: "Bebidas y Café"
 description: "El acompañamiento perfecto para tu antojo dulce o salado."
-featured_image: "images/banner-b.jpg"
+featured_image: "/monalisa-snacks.github.io/images/banner-b.jpg"
 ---
 
 <a href="/" class="boton-home-mona">

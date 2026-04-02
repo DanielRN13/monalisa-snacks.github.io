@@ -1,7 +1,7 @@
 ---
 title: "Crepas Dulces"
 description: "Nuestra masa artesanal combinada con los mejores ingredientes dulces."
-featured_image: "images/banner-d.jpg"
+featured_image: "/monalisa-snacks.github.io/images/banner-d.jpg"
 ---
 
 <a href="/" class="boton-home-mona">

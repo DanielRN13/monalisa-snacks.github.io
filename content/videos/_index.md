@@ -1,7 +1,7 @@
 ---
 title: "Nuestros Videos"
 description: "Mira lo que hacemos en mi emprendimiento"
-featured_image: "images/banner-v.jpg"
+featured_image: "/monalisa-snacks.github.io/images/banner-v.jpg"
 ---
 
 <a href="/" class="boton-home-mona">
