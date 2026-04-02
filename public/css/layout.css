@@ -103,7 +103,8 @@ header nav a[href="/"],
     width: 280px !important;
     height: 120px !important;
     z-index: 9999999 !important;
-    background-image: url("/images/logo-mini.png") !important;
+    /* Ajuste de ruta relativa: ../ sube un nivel fuera de /css/ para entrar a /images/ */
+    background-image: url("../images/logo-mini.png") !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: left center !important;
@@ -354,6 +355,6 @@ h2::after {
 }
 
 /* --- 11. LIMPIEZA FINAL --- */
-.dn-l.link, .dib.mb3, .v-mid.link, .list-posts, main>header, .list.pa0.ma0 {
+.dn-l.link, .dib.mb3, .v-mid.link, .list-posts, main>header, .list.pa0.ma0, header nav {
     display: none !important;
 }
