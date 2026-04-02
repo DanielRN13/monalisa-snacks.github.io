@@ -3,8 +3,8 @@ languageCode = "es-mx"
 title = "Monalisa Crepes & Burgers"
 theme = "ananke"
 
-# Muy importante: esto ayuda a Hugo a manejar las rutas relativas
-canonifyURLs = true
+# RUTAS RELATIVAS (CRÍTICO PARA BANNERS)
+canonifyURLs = false
 relativeURLs = true
 
 [params]

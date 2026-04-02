@@ -355,6 +355,6 @@ h2::after {
 }
 
 /* --- 11. LIMPIEZA FINAL --- */
-.dn-l.link, .dib.mb3, .v-mid.link, .list-posts, main>header, .list.pa0.ma0 {
+.dn-l.link, .dib.mb3, .v-mid.link, .list-posts, main>header, .list.pa0.ma0, header nav {
     display: none !important;
 }
