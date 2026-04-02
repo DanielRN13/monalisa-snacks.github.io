@@ -1,6 +1,7 @@
-baseURL = 'https://monalisa-snacks.github.io/'
+# URL de producción en GitHub Pages
+baseURL = "https://danielrn13.github.io/"
 languageCode = "es-mx"
-title = "Monalisa Crepes & Snacks"
+title = "Monalisa Crepes & Burgers"
 theme = "ananke"
 
 [params]
